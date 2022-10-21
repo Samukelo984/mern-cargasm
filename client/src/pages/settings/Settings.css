@@ -1,0 +1,78 @@
+.settings {
+  display: flex;
+}
+
+.settings-container {
+  padding: 1.2em;
+  flex: 9;
+}
+
+.settings-article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings-article h4:first-child {
+  margin-bottom: 1.2em;
+  font-size: 2em;
+  color: var(--ocean-blue);
+}
+.settings-article h4:last-child {
+  font-size: 1em;
+  color: var(--delete);
+  cursor: pointer;
+}
+
+.settings-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-form label {
+  margin-top: 1.2em;
+  font-size: 1.2em;
+}
+
+.settings-form article {
+  margin: 0.6em 0;
+  display: flex;
+  align-items: center;
+}
+
+.settings-form article img {
+  width: 5em;
+  height: 5em;
+  object-fit: cover;
+  border-radius: 0.6em;
+}
+
+.settings-icon {
+  width: 2em;
+  height: auto;
+  margin-left: 0.6em;
+  font-size: 1.6em;
+  color: var(--edit);
+  cursor: pointer;
+}
+
+.settings-form input {
+  height: 2em;
+  margin: 0.6em 0;
+  color: var(--mid-gray);
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--bright-gray);
+}
+
+.settings-form button {
+  width: 9.3rem;
+  padding: 0.6em;
+  margin-top: 1.2em;
+  align-self: center;
+  border: none;
+  border-radius: 0.6em;
+  color: var(--bright-white);
+  background: var(--ocean-blue);
+  cursor: pointer;
+}

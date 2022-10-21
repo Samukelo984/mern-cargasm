@@ -1,0 +1,30 @@
+.hero {
+  margin-top: 3.7em;
+}
+
+.hero-titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: italic;
+  color: var(--mid-gray);
+}
+
+.hero-titles span {
+  position: absolute;
+  top: 22%;
+  font-size: 5em;
+}
+
+.hero-titles span:nth-child(1) {
+  position: absolute;
+  top: 20%;
+  font-size: 1.6em;
+}
+
+.hero-image {
+  width: 100%;
+  height: 30rem;
+  margin-top: 5em;
+  object-fit: cover;
+}

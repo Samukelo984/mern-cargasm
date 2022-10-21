@@ -1,0 +1,49 @@
+.write-container {
+  padding-top: 3.2em;
+}
+
+.write-container img {
+  width: 70vw;
+  height: 15.6rem;
+  margin-left: 9.3em;
+  border-radius: 0.6rem;
+  object-fit: cover;
+}
+
+.write-form {
+  position: relative;
+}
+
+.form-group {
+  margin-left: 9.3em;
+  display: flex;
+  align-items: center;
+}
+
+.write-icon {
+  width: 1.4em;
+  height: auto;
+  font-size: 1.4em;
+  color: var(--mid-gray);
+  cursor: pointer;
+}
+
+.write-input {
+  width: 70vw;
+  padding: 1.2em;
+  font-size: 2em;
+  border: none;
+  outline: none;
+}
+
+.write-form-btn {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  padding: 0.6em;
+  border: none;
+  border-radius: 0.6em;
+  color: var(--bright-white);
+  background: var(--ocean-blue);
+  cursor: pointer;
+}

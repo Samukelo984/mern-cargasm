@@ -1,0 +1,6 @@
+.posts-container {
+  margin: 1em;
+  flex: 9;
+  display: flex;
+  flex-wrap: wrap;
+}
